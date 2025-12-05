@@ -1,0 +1,28 @@
+{
+  "name": "gafam-awareness-site",
+  "version": "1.0.0",
+  "description": "Site de sensibilisation aux GAFAM et promotion du logiciel libre",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "gafam",
+    "privacy",
+    "linux",
+    "open-source"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.10.3",
+    "nodemon": "^3.1.11"
+  }
+}

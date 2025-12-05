@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez l'impact réel des GAFAM sur votre vie privée et explorez des alternatives libres">
+    <title>Reprenez le contrôle - Sensibilisation aux GAFAM</title>
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="/images/logo.png" alt="Logo" class="logo-icon">
+                <span class="logo-text">Reprenez le contrôle</span>
+            </div>
+            <nav class="header-nav">
+                <a href="#hero" class="nav-link">Accueil</a>
+                <a href="#info-section" class="nav-link">Découvrir</a>
+                <a href="#quiz" class="nav-link">Quiz</a>
+                <a href="#windows-vm" class="nav-link">Windows VS Linux</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="glow glow-blue"></div>
+            <div class="glow glow-purple"></div>
+        </div>
+
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">Reprenez le contrôle</h1>
+            <p class="hero-subtitle">
+                Apprenez à naviguer autrement, loin des GAFAM
+            </p>
+        </div>
+
+        <button class="scroll-indicator" onclick="scrollToSection('info-section')" aria-label="Défiler vers le bas">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+    </section>
+
+    <!-- Info Section -->
+    <section id="info-section" class="info-section">
+        <div class="container">
+            <h2 class="section-title fade-in-view">Ce qu'il faut savoir</h2>
+
+            <div class="info-blocks">
+                <!-- Block 1 -->
+                <div class="info-block slide-in-left">
+                    <div class="info-header">
+                        <div class="info-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="info-title">Qui sont-ils ?</h3>
+                    </div>
+
+                    <div class="gafam-logos-enhanced">
+                        <div class="logo-card">
+                            <div class="logo-letter google">G</div>
+                            <span class="logo-name">Google</span>
+                        </div>
+                        <div class="logo-card">
+                            <div class="logo-letter apple">A</div>
+                            <span class="logo-name">Apple</span>
+                        </div>
+                        <div class="logo-card">
+                            <div class="logo-letter facebook">F</div>
+                            <span class="logo-name">Meta</span>
+                        </div>
+                        <div class="logo-card">
+                            <div class="logo-letter amazon">A</div>
+                            <span class="logo-name">Amazon</span>
+                        </div>
+                        <div class="logo-card">
+                            <div class="logo-letter microsoft">M</div>
+                            <span class="logo-name">Microsoft</span>
+                        </div>
+                    </div>
+
+                    <div class="info-content gafam-text">
+                        <p class="gafam-intro"><strong>GAFAM</strong></p>
+                        <p>Un acronyme pour désigner cinq acteurs devenus l'ossature du numérique mondial.</p>
+                        <p>Non pas parce qu'ils offrent des services, mais parce qu'ils contrôlent les flux et les données qui font fonctionner notre vie connectée.</p>
+                        <p class="powers-intro">Ils sont appelés ainsi car, ensemble, ils concentrent trois pouvoirs essentiels :</p>
+                        <ul class="powers-list">
+                            <li><strong>l'accès</strong> <span class="power-detail">(chercher, communiquer, acheter, travailler)</span></li>
+                            <li><strong>la dépendance</strong> <span class="power-detail">(écosystèmes fermés, abonnements, licences)</span></li>
+                            <li><strong>la donnée</strong> <span class="power-detail">(profilage, ciblage, stockage massif)</span></li>
+                        </ul>
+                        <p class="big-data-quote">Le Big Data n'est pas une accumulation d'informations, mais une capacité à prédire, orienter et influencer.</p>
+                        <p class="final-quote"><strong>Leur force n'est pas la technologie : c'est l'emprise.</strong></p>
+                    </div>
+                </div>
+
+                <!-- Block 2 -->
+                <div class="info-block slide-in-right">
+                    <div class="info-header">
+                        <div class="info-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="5" y="11" width="14" height="10" rx="2" ry="2"></rect>
+                                <path d="M12 17a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                                <path d="M8 11V7a4 4 0 0 1 8 0v4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="info-title">Simplicité ou dépendance ?</h3>
+                    </div>
+
+                    <div class="info-content gafam-text">
+                        <p>Des services intégrés, fluides, rassurants.</p>
+                        <p>Tout fonctionne, sans effort, sans choix à faire.</p>
+                        <p class="powers-intro">Mais derrière la commodité se referme l'écosystème :</p>
+                        <ul class="powers-list">
+                            <li>applications exclusives</li>
+                            <li>formats propriétaires</li>
+                            <li>sauvegardes verrouillées</li>
+                        </ul>
+                        <p>Ce qui semblait pratique devient habitude, puis contraintes.</p>
+                        <p>Vos données ne vous accompagnent plus : elles restent.</p>
+                        <p class="big-data-quote">Vous ne quittez pas l'outil, parce qu'il ne vous laisse plus vraiment partir.</p>
+                        <p class="final-quote"><strong>La simplicité n'est jamais neutre : elle peut éclairer ou enfermer.</strong></p>
+                    </div>
+                </div>
+
+                <!-- Block 3 -->
+                <div class="info-block slide-in-left">
+                    <div class="info-header">
+                        <div class="info-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="info-title">Gratuit ? Vraiment ?</h3>
+                    </div>
+
+                    <div class="info-content gafam-text">
+                        <p>La promesse est séduisante : tout, tout de suite, sans payer.</p>
+                        <p>Mais l'absence de facture ne signifie pas l'absence de coût.</p>
+                        <p class="powers-intro">Le modèle repose sur une matière première inépuisable : <strong>vous</strong>.</p>
+                        <ul class="powers-list">
+                            <li>Vos clics</li>
+                            <li>Vos recherches</li>
+                            <li>Vos trajets</li>
+                            <li>Vos préférences</li>
+                        </ul>
+                        <p>deviennent profil, prédiction, ciblage.</p>
+                        <p>Rien n'est gratuit lorsque la donnée devient monnaie.</p>
+                        <p class="big-data-quote">Le service ne vous vend pas un produit : <strong>il vous vend</strong>.</p>
+                        <p class="final-quote"><strong>Si c'est gratuit, c'est vous le produit.</strong></p>
+                    </div>
+
+                    <div class="data-flow">
+                        <div class="flow-item">
+                            <div class="flow-dot blue"></div>
+                            <span>Vos données</span>
+                        </div>
+                        <span class="flow-arrow">→</span>
+                        <div class="flow-item">
+                            <div class="flow-dot purple"></div>
+                            <span>Profilage</span>
+                        </div>
+                        <span class="flow-arrow">→</span>
+                        <div class="flow-item">
+                            <div class="flow-dot pink"></div>
+                            <span>Publicité ciblée</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <div class="quiz-header fade-in-view">
+                <h2 class="section-title">À vous de jouer</h2>
+                <p class="quiz-description">Un mini-quiz rapide pour découvrir l'envers du décor du numérique.</p>
+                <p class="quiz-progress">Question <span id="current-question">1</span> sur <span id="total-questions">6</span></p>
+            </div>
+
+            <div class="quiz-container">
+                <div id="quiz-content" class="quiz-content">
+                    <!-- Quiz will be dynamically loaded here -->
+                </div>
+
+                <div class="quiz-dots">
+                    <!-- Progress dots will be dynamically loaded here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Windows VM Section -->
+    <section id="windows-vm" class="vm-section">
+        <div class="container-wide">
+            <div class="vm-header fade-in-view">
+                <h2 class="section-title">L'expérience Windows</h2>
+                <p class="vm-subtitle">Découvrez ce que vous subissez quotidiennement...</p>
+            </div>
+
+            <div class="vm-wrapper">
+                <div class="vm-container" id="vm-container">
+                    <!-- Window Controls -->
+                    <div class="vm-titlebar">
+                        <span class="vm-title">Windows 10 Pro</span>
+                        <div class="vm-controls">
+                            <button class="vm-btn" id="fullscreen-btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- VM Content -->
+                    <div class="vm-content" id="vm-content">
+                        <!-- Login Screen -->
+                        <div class="vm-login" id="vm-login">
+                            <div class="login-content">
+                                <div class="user-avatar">👤</div>
+                                <h3 class="user-name">Utilisateur</h3>
+                                <form id="login-form">
+                                    <input type="password" id="password-input" placeholder="Mot de passe" class="login-input">
+                                    <button type="submit" class="login-btn">Se connecter</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Desktop -->
+                        <div class="vm-desktop" id="vm-desktop" style="display: none;">
+                            <!-- Desktop Icons -->
+                            <div class="desktop-icons">
+                                <div class="desktop-icon" id="snake-icon">
+                                    <div class="icon-image snake-icon">🐍</div>
+                                    <span class="icon-label">Snake Game</span>
+                                </div>
+
+                                <div class="desktop-icon" id="pc-icon">
+                                    <div class="icon-image pc-icon">📁</div>
+                                    <span class="icon-label">Ce PC</span>
+                                </div>
+
+                                <div class="desktop-icon" id="recycle-icon">
+                                    <div class="icon-image trash-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polyline points="3 6 5 6 21 6"></polyline>
+                                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                                        </svg>
+                                    </div>
+                                    <span class="icon-label">Corbeille</span>
+                                </div>
+                            </div>
+
+                            <!-- Taskbar -->
+                            <div class="taskbar">
+                                <div class="taskbar-start">
+                                    <div class="windows-btn" id="windows-btn">⊞</div>
+                                    <div class="taskbar-time" id="taskbar-time"></div>
+                                </div>
+                            </div>
+
+                            <!-- Activation Watermark -->
+                            <div class="activation-watermark">
+                                <p>Activer Windows</p>
+                                <p class="watermark-small">Accédez aux Paramètres pour activer Windows.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Info below VM -->
+                <div class="linux-info fade-in-view">
+                    <h3 class="linux-title">Pourquoi Linux est différent ?</h3>
+                    <ul class="linux-features">
+                        <li>
+                            <span class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span><strong>Aucune licence à payer</strong> - Le système et tous les logiciels sont libres et gratuits</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span><strong>Pas de collecte de données</strong> - Votre vie privée est respectée par défaut</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span><strong>Aucune publicité</strong> - Pas de pop-ups, pas de sollicitations constantes</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span><strong>Plus performant</strong> - Donne une seconde vie aux anciens ordinateurs</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span><strong>Écologique</strong> - Lutte contre l'obsolescence programmée</span>
+                        </li>
+                    </ul>
+                    <div class="linux-cta">
+                        <p>
+                            <strong>Découvrez la distribution Linux du NIRD</strong> - Conçue pour être accessible à tous, sans expertise technique requise.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Credits -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-section footer-main">
+                <div class="footer-logo">
+                    <img src="/images/logo.png" alt="Logo" class="footer-logo-icon">
+                    <span class="footer-logo-text">Reprenez le contrôle</span>
+                </div>
+                <p class="footer-tagline">
+                    Créé dans le cadre de la <strong>Nuit de l'Info 2025</strong><br>
+                    pour accompagner la démarche NIRD
+                </p>
+            </div>
+
+            <div class="footer-section footer-team-section">
+                <h4 class="footer-heading">Équipe</h4>
+                <p class="team-name">Les trois singes</p>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <span class="member-name">Ramora Yvain</span>
+                    </div>
+                    <div class="team-member">
+                        <span class="member-name">Labrousse-Lhuissier Florent</span>
+                    </div>
+                    <div class="team-member">
+                        <span class="member-name">Sicard-Baux Florian</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-section footer-links">
+                <h4 class="footer-heading">Navigation</h4>
+                <nav class="footer-nav">
+                    <a href="#hero" class="footer-link">Accueil</a>
+                    <a href="#info-section" class="footer-link">Découvrir</a>
+                    <a href="#quiz" class="footer-link">Quiz</a>
+                    <a href="#windows-vm" class="footer-link">Windows VS Linux</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/quiz.js"></script>
+    <script src="/js/vm.js"></script>
+    <script src="/js/snake.js"></script>
+</body>
+</html>
