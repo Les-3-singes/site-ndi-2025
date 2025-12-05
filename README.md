@@ -27,6 +27,7 @@ Réalisé par l'équipe des 3 singes
 
 ## Structure du Projet
 
+```
 site/
 ├── server.js              # Serveur Express
 ├── package.json           # Dépendances npm
@@ -40,6 +41,7 @@ site/
 │       ├── vm.js          # Gestion de la VM Windows
 │       └── snake.js       # Jeu Snake
 └── mockup/                # Maquette React/Tailwind (référence)
+```
 
 ## Installation
 
